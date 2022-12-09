@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "이주성"
+  },
+  "text": {
+    "more": "",
+    "intro": "드라마 \u0027이상한 변호사 우영우\u0027 13화를 참고해서 등장인물들 간의 관계도를 분석했습니다.\n\n데이터 구축 방법\n이상한 변호사 우영우에서 나오는 인문들의 대화 횟수를 측정\n\n노드의 크기: In - Degree: 인물간의 근접성 확인\n에지: Weight값을 주어 근접중심성을 확인",
+    "title": "우영우와 등장인물 관계 분석"
+  },
+  "legend": {
+    "edgeLabel": "대화",
+    "colorLabel": "근접중심성",
+    "nodeLabel": "등장인물"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
